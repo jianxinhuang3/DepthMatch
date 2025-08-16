@@ -1,0 +1,21 @@
+# arguments for dataset
+dataset: nyuv2
+data_root: /remote-home/data/NYU
+nclass: 40
+crop_size: [630, 476]
+
+# arguments for training
+epochs: 100
+batch_size: 4 # per GPU
+lr: 0.000005
+lr_multi: 40.0
+criterion:
+  name: CELoss
+  kwargs:
+    ignore_index: 255
+conf_thresh: 0.95
+
+# arguments for model
+model: dpt
+backbone: dinov2_small
+lock_backbone: False
