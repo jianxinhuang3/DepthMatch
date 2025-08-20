@@ -51,4 +51,4 @@ If you find this project useful, please consider citing:
 ```
 
 ## Acknowlegement
-_**DepthMatch**_ is built upon [UniMatch V2](https://github.com/LiheYoung/UniMatch-V2). We thank the author for their excellent work and for making the source code publicly available.
+_**DepthMatch**_ is built upon [UniMatch V2](https://github.com/LiheYoung/UniMatch-V2). We thank the authors for their excellent work and for making the source code publicly available.
